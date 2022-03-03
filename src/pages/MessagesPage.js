@@ -20,6 +20,7 @@ function MessagesPage() {
 
   useEffect(() => {
     socket = io("https://dumbgram-be-ahsan.herokuapp.com/", {
+      transports: ["websocket"],
       auth: {
         token: localStorage.getItem("token"),
       },

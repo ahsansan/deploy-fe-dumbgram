@@ -33,7 +33,6 @@ function Register(props) {
     fullName: "",
     username: "",
     password: "",
-    image: "noname.png",
   });
 
   // ketika di input
