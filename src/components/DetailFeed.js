@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 // Components
 import { UserContext } from "../context/userContext";
 import { API } from "../config/api";
-const path = "http://localhost:5000/uploads/";
+const path = "https://dumbgram-be-ahsan.herokuapp.com/uploads/";
 
 function DetailFeed({ show, handleClose, feedsId, showFeedFollow }) {
   const [state] = useContext(UserContext);

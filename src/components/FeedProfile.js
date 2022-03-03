@@ -22,7 +22,7 @@ import { API } from "../config/api";
 // Detail Feed
 import DetailFeed from "./DetailFeed";
 // path
-const path = "http://localhost:5000/uploads/";
+const path = "https://dumbgram-be-ahsan.herokuapp.com/uploads/";
 
 function FeedProfile() {
   const { id } = useParams();

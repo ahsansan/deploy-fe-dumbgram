@@ -11,7 +11,7 @@ import { faBell } from "@fortawesome/free-regular-svg-icons";
 import { UserContext } from "../context/userContext";
 import { API } from "../config/api";
 
-const path = "http://localhost:5000/uploads/";
+const path = "https://dumbgram-be-ahsan.herokuapp.com/uploads/";
 
 function Notification() {
   const [state] = useContext(UserContext);

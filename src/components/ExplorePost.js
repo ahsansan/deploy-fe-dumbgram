@@ -12,7 +12,7 @@ import DetailFeed from "./DetailFeed";
 // API and Context
 import { API } from "../config/api";
 // path
-const path = "http://localhost:5000/uploads/";
+const path = "https://dumbgram-be-ahsan.herokuapp.com/uploads/";
 
 function ExplorePost() {
   // Animation
